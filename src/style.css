@@ -1,0 +1,131 @@
+body{
+  margin: 0;
+}
+#menu{
+  float: right;
+  background-color: black; 
+  color: whitesmoke;
+  padding: 0px 8px 9px 8px;
+  text-align: center;
+  font-size: 10px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-weight: bold;
+  margin: 10px 20px 5px 10px;
+}
+#menu:hover{
+  background-color: #262626;
+  color: whitesmoke;
+  border-radius: 5px;
+}
+#search{
+  float: right;
+  margin-right: 10px;
+  border-radius: 5px;
+  padding: 13px 8px 9px 8px;
+}
+#login{
+  float: right;
+  background-color: black; 
+  padding: 8px 8px 9px 8px;
+  color: whitesmoke;
+  text-align: center;
+  font-size: 25px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin: 8px 10px 10px 10px;
+}
+#login:hover{
+  background-color: #8c8c8c;
+  color: whitesmoke;
+  border-radius: 10px;
+}
+.watchbtn1{
+  float: center;
+  background-color: grey; 
+  color: black;
+  border: none;
+  font-family: 'Coustard','sans-serif';
+  border-radius: 10px;
+  padding: 3px 5px 3px 3px;
+  text-align: center;
+  font-size: 13px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.watchbtn1:hover{
+  background-color: #262626;
+  color: whitesmoke;
+  border-radius: 5px;
+}
+.logo{
+  max-width: 70px;
+  cursor: pointer;
+  background-color: black;
+  margin: 8px 10px 10px 10px;
+}
+.logo:hover{
+  max-width: 71px;
+}
+.bgimage{
+  /*background: #ffffff url(Images/bgimage1.png) no-repeat center center fixed;
+  background-size: cover;*/
+  background-color: darkgrey;
+}
+.cffont{
+  font-size: 35px;
+  font-weight: bold;
+  color: whitesmoke;
+  font-family: 'Cinzel Decorative', 'sans-serif';
+  padding: 5px 5px 5px 10px;
+  cursor: pointer;
+  margin: 8px 10px 10px 10px;
+}
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 7px 0px 2px 0px;
+  overflow: hidden;
+  background-color: black;
+  transition-duration: 0.4s;
+  position: -webkit-sticky;/* Safari */
+  position: sticky;
+}
+li {
+  float: left;
+}
+.active {
+  background-color: #4CAF50;
+}
+.pd1{
+  padding: 10px 10px 10px 10px;
+}
+.movie {
+  margin: 25px;
+  font-family: 'Coustard','sans-serif';
+  border: 1px solid grey;
+  float: left;
+  max-width: 150px;
+  border-radius: 20px;
+  background-color: grey;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.movie:hover {
+  border: 1px solid #777;
+  border-radius: 3px;
+  background-color: #262626;
+  color: whitesmoke;
+}
+
+.movie img {
+  width:  150px;
+  height: 210px;
+  background-size: cover;
+}
+.name {
+  padding: 3px 5px 10px 5px;
+  text-align: center;
+  font-size: 15px; 
+}
