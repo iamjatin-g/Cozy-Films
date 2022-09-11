@@ -19,6 +19,7 @@ body {
   background-color: #262626;
   color: whitesmoke;
   border-radius: 5px;
+
 }
 
 #search {
@@ -138,6 +139,7 @@ li {
   border-radius: 3px;
   background-color: #262626;
   color: whitesmoke;
+  box-shadow: rgba(0, 0, 0, 0.60) 10px 5px 18px;
 }
 
 .movie img {
