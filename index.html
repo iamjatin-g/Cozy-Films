@@ -5,7 +5,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- My Css Files -->
-	<link rel="stylesheet" href="src/Stylesheet/style.css">
+	<link rel="stylesheet" href="src/style.css">
 	<link href='https://fonts.googleapis.com/css?family=Coustard' rel='stylesheet'>
 	<link href='https://fonts.googleapis.com/css?family=Cinzel Decorative' rel='stylesheet'>
 	<title>Cozy Films</title>
@@ -13,21 +13,27 @@
 </head>
 
 <body class="bgimage">
-	<div>
+	<header>
 		<div>
-			<ul>
+			<ul class="header1">
 				<a href="index.html">
-					<li><img class="logo" src="src/Images/logo.png" alt="logo"></li>
-					<!-- <li class="cffont">Cozy Films</li> -->
+					<li style="float: left;"><img class="logo" src="src/Images/logo.png" alt="logo"></li>
+					<li style="float: left;" class="cffont">Cozy Films</li>
 				</a>
-				<button onclick="menu()" id="menu">_____<br>_____<br>_____</button>
-				<button onclick="login()" id="login">Login</button>
-				<!-- <div id="search"><input type="search" placeholder="Search" id="searchField" autocomplete="off" value="">
-  					<div class="searchIcon"><i class="search-icon"></i></div> -->
+				<div class="menu-button">
+					<div id="menu" class="menu-bars" onclick="menu(this)">
+	  					<div class="bar1"></div>
+	  					<div class="bar2"></div>
+	  					<div class="bar3"></div>
+					</div>
+				</div>
 			</ul>
 		</div>
-	</div>
-	<div class="pd1">
+	</header>
+	<!-- <ul class="genre">
+		<li>Marvel Movies</li>
+	</ul> -->
+	<div class="movie-cards">
 		<a href="https://drive.google.com/drive/folders/1iS6R48OmHfm4BEiPFNjoVHLPKreZjnEZ?usp=sharing" target="_blank">
 			<div class="movie">
 				<img src="src/Images/Movie/Iron-Man-1.jpg" alt="IRON MAN">
@@ -61,7 +67,7 @@
 		<a href="https://drive.google.com/drive/folders/15w7gwZU0vHEx2W3oIRQJeRFQXyqn0P2-?usp=sharing" target="_blank">
 			<div class="movie">
 				<img src="src/Images/Movie/Avengers-Endgame.jpg" alt="AVENGERS: ENDGAME">
-				<div class="name">AVENGERS:ENDGAME</div>
+				<div class="name">AVENGERS: ENDGAME</div>
 			</div>
 		</a>
 		<a href="https://drive.google.com/drive/folders/1WTLQogJLX0GL-FOJF1XaYo92f1AXrRn1?usp=sharing" target="_blank">
@@ -84,23 +90,16 @@
 		</a>
 		<a href="https://drive.google.com/drive/folders/19RdrGE1bamTQngtNe-yHmsJd78-ofmfS?usp=sharing" target="_blank">
 			<div class="movie">
-				<img src="src/Images/Movie/VenomLetThereBeCarnage.png" alt="VENOM - LET THERE BE CARNAGE">
+				<img src="src/Images/Movie/VenomLetThereBeCarnage.jpg" alt="VENOM - LET THERE BE CARNAGE">
 				<div class="name">VENOM LET THERE BE CARNAGE</div>
 			</div>
 		</a>
 		<a href="https://drive.google.com/drive/folders/14w8JHweyFHrSwidk73HZgfoQHT05d9G0?usp=sharing" target="_blank">
 			<div class="movie">
-				<img src="src/Images/Series/Euphoria.png" alt="EUPHORIA">
+				<img src="src/Images/Series/Euphoria.jpg" alt="EUPHORIA">
 				<div class="name">EUPHORIA</div>
 			</div>
 		</a>
-		<a href="#" target="_blank">
-			<div class="movie">
-				<img src="src/Images/Movie/DontLookUp.png" alt="DON'T LOOK UP">
-				<div class="name">DON'T LOOK UP</div>
-			</div>
-		</a>
-	
 	</div>
 </body>
 <!-- JavaScript -->
