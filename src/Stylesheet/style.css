@@ -22,13 +22,6 @@ body {
 
 }
 
-#search {
-  float: right;
-  margin-right: 10px;
-  border-radius: 5px;
-  padding: 13px 8px 9px 8px;
-}
-
 #login {
   float: right;
   background-color: black;
@@ -45,26 +38,6 @@ body {
   background-color: #8c8c8c;
   color: whitesmoke;
   border-radius: 10px;
-}
-
-.watchbtn1 {
-  float: center;
-  background-color: grey;
-  color: black;
-  border: none;
-  font-family: "Coustard", "sans-serif";
-  border-radius: 10px;
-  padding: 3px 5px 3px 3px;
-  text-align: center;
-  font-size: 13px;
-  transition-duration: 0.4s;
-  cursor: pointer;
-}
-
-.watchbtn1:hover {
-  background-color: #262626;
-  color: whitesmoke;
-  border-radius: 5px;
 }
 
 .logo {
@@ -122,6 +95,8 @@ li {
 .movie {
   /* width: 100%; */
   margin: 10px;
+  color: black;
+  font-weight: medium;
   font-family: "Coustard", "sans-serif";
   border: 1px solid grey;
   float: left;
