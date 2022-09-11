@@ -119,14 +119,9 @@ li {
 }
 
 .movie {
-<<<<<<< HEAD:style.css
   /* width: 100%; */
   margin: 10px;
   font-family: "Coustard", "sans-serif";
-=======
-  margin: 27px;
-  font-family: 'Coustard','sans-serif';
->>>>>>> 518e8d81c9217aabfcafb625e4441c4e9b71c1bf:src/style.css
   border: 1px solid grey;
   float: left;
   width: 14rem;
