@@ -10,12 +10,12 @@ body {
   background-attachment: fixed;
 }
 
-.header1{
+.header1 {
   list-style-type: none;
   margin: 0px;
   padding: 7px 0px 2px 0px;
   overflow: hidden;
-  background-color: #1a0000;
+  background-color: rgba(0, 0, 0, 0.5);
   transition-duration: 0.4s;
   position: -webkit-sticky;
   /* Safari */
@@ -39,7 +39,7 @@ body {
   margin: 8px 8px 8px 2px;
 }
 
-.menu-button{
+.menu-button {
   display: flex;
   align-items: right;
   justify-content: right;
@@ -50,14 +50,16 @@ body {
 .menu-bars {
   display: inline-block;
   cursor: pointer;
-  float: right;
+  /* float: right; */
   margin: 13px 21px 5px 10px;
   padding: 0px 8px 8px 8px;
   cursor: pointer;
   transition-duration: 1s;
 }
 
-.bar1, .bar2, .bar3 {
+.bar1,
+.bar2,
+.bar3 {
   width: 35px;
   height: 5px;
   margin: 2px;
@@ -70,13 +72,15 @@ body {
   transform: translate(0, 11px) rotate(-45deg);
 }
 
-.change .bar2 {opacity: 0;}
+.change .bar2 {
+  opacity: 0;
+}
 
 .change .bar3 {
   transform: translate(0, -11px) rotate(45deg);
 }
 
-.genre{
+.genre {
   list-style-type: none;
   margin: 0px;
   font-family: "Cinzel Decorative", "sans-serif";
@@ -91,8 +95,8 @@ body {
   color: whitesmoke;
 }
 
-.movie-cards{
-  padding: 10px;
+.movie-cards {
+  padding: 1%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -108,22 +112,24 @@ body {
   font-family: "Coustard", "sans-serif";
   /*border: 1px solid;*/
   float: left;
-  width: 9rem;
+  width: 18rem;
   max-width: 18rem;
   border: 0.5px solid #cc0000;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
   background-color: #cc0000;
   transition-duration: 0.5s;
   cursor: pointer;
+  position: relative;
+  display: flex;
+  align-content: center;
 }
 
 .movie:hover {
-  border: 1px solid #777;
-  border-radius: 3px;
   background-color: #1a0000;
   color: white;
   box-shadow: #0d0d0d 10px 5px 18px;
+  filter: blur(1px);
 }
 
 .movie img {
@@ -132,8 +138,27 @@ body {
   object-fit: cover;
 }
 
-.name {
-  padding: 3px 5px 10px 5px;
+.movie-name-container {
+  background-color: transparent;
+  color: transparent;
+  position: absolute;
+  z-index: 1;
   text-align: center;
-  font-size: 15px;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.movie-name-container:hover {
+  color: white;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.8);
+  transition: 500ms;
+  font-size: 60px;
+}
+
+.name {
+  width: 100%;
 }
