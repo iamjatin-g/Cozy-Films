@@ -129,7 +129,7 @@ body {
   background-color: #1a0000;
   color: white;
   box-shadow: #0d0d0d 10px 5px 18px;
-  filter: blur(1px);
+  /* filter: blur(1px); */
 }
 
 .movie img {
@@ -154,8 +154,8 @@ body {
 .movie-name-container:hover {
   color: white;
   z-index: 2;
-  background-color: rgba(0, 0, 0, 0.8);
-  transition: 500ms;
+  background-color: rgba(74, 74, 74, 0.8);
+  transition: 700ms;
   font-size: 60px;
 }
 
